@@ -3,52 +3,33 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-/** .
- * The view is responsible for displaying the information.
- * The view includes the list of colors and a panel for painting
- * with the mouse.  The panel is implemented as a separate class so that the
- * painting is relatively flicker-free.
- * @author Tom Bylander
- */
+
 public class view extends JFrame {
-    /** 
-     * the model of this MVC example 
-     */
+    
 	private model model;
 	
-	/** 
-	 * the JPanel where the user can paint
-	 */
-	private paintpanel mousePanel;
+        private paintpanel mousePanel;
 	
-	/** 
-	 * for displaying a list of colors
-	 */
 	private JList colorList;
-	
-	/** 
-	 * the panel where the JList will be placed 
-	 */
+	private JList sizeList;
 	private JPanel listPanel;
+        private JPanel sizePanel;
 
-	/** 
-	 * the String names of the colors that the user can select 
-	 */
 	private static final String[] colorNames = {"Black", "Blue", "Cyan",
 		"Dark Gray", "Gray", "Green", "Light Gray", "Magenta",
 		"Orange", "Pink", "Red", "White", "Yellow"};
+        
+        private static final String[] sizeNames = {"2", "3", "4", "5", "6", "7"};
 	
-	/** 
-	 * the Colors that the user can select 
-	 */
 	private static final Color[] colors = {Color.BLACK, Color.BLUE,
 		Color.CYAN, Color.DARK_GRAY, Color.GRAY, Color.GREEN, 
 		Color.LIGHT_GRAY, Color.MAGENTA, Color.ORANGE, Color.PINK, 
 		Color.RED, Color.WHITE, Color.YELLOW};
+        
+       // private static final FontSize[] sizes = {FontSize.1, FontSize.2 
+       // FontSize.3, FontSize.4, FontSize.5, FontSize.6, FontSize.7};
+        
 
-	/**
-	 * Create and organize the components of the window.
-	 */
 	public view(model model) {
 		super("Illustrate Model-View-Controller");
 		this.model = model;
@@ -65,29 +46,29 @@ public class view extends JFrame {
 		colorList.setVisibleRowCount(5);
 		colorList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		listPanel.add(new JScrollPane(colorList), BorderLayout.CENTER);
+                
+                sizePanel = new JPanel();
+		add(sizePanel, BorderLayout.EAST);
+		sizeList = new JList(sizeNames);
+		sizeList.setVisibleRowCount(4);
+		sizeList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		sizePanel.add(new JScrollPane(sizeList), BorderLayout.CENTER);
 	} // end constructor
 
-	/**
-	 * Register the controller as the listener to the JList and the
-	 * MousePanel.
-	 * @param listener
-	 */
+	
 	public void registerListener(controller listener) {
 		colorList.addListSelectionListener(listener);
 		mousePanel.addMouseMotionListener(listener);
 	}
 
-	/**
-	 * @return The color selected by the user.
-	 */
 	public Color getSelectedColor() {
 		return colors[colorList.getSelectedIndex()];
 	}
 
-	/**
-	 * Sets the background color of the JList and calls super.paint(g)
-	 * to paint the components.
-	 */
+       // public FontSize getSelectedSize(){
+         //      return sizes[sizeList.getSelectedIndex()];
+        //}
+	
 	public void paint(Graphics g) {
 		listPanel.setBackground(model.getSelectedColor());
 		super.paint(g); // This will paint the components.
