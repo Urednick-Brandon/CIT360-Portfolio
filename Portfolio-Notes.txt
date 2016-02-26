@@ -1,0 +1,28 @@
+Portfolio Notes
+
+************ HttpURLConnection*******************************************************************************
+Here I studied various websites on how HTTP connections can be done in java for andriod devices and what you can do with them.
+The main source that I did for this research was http://developer.android.com/reference/java/net/HttpURLConnection.html and
+from there I was able to learn on how to connect with http urls with java in various different ways including secure connections,
+cookies, and authentication sign-ons. I found other tools within the HttpURLConnection to also create a HTTP reader than can pull the
+live current http file of any website. The java file is on this github at:
+https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/src/httpreader
+I also did a live demo of it on YouTube at (already cued up at 5m55s):
+https://youtu.be/i7FmQZW6gMo?t=5m50s
+************************************************************************************************************
+
+************ MVC + JUnits? + Action-Listeners?**************************************************************
+I somewhat understood was MVC was and how the business, input, and display layers all work. It took me a few times to grasp the
+concept, but the tutuorials at W3schools really healped: http://www.w3schools.com/aspnet/mvc_intro.asp
+
+From there I found a few more tutorials that helped build and demonstrate a live demo of a MVC and how it worked. I attempted to elevate 
+the demo project and tried to make it so you can adjust the pixel size of your 'drawing', however that attempt had to be commented out
+due to some compling issues that I still haven't worked out yet. 
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/mvc/src/mvc
+YouTube Demo: https://www.youtube.com/watch?v=4gGolm8Zzfc
+
+The cool thing about this demo tutorial file is that taught me about how JUnits can work and how to program something with action
+listeners. I was someone familiar with action-listers when I programmed mods for World of Warcraft. The listeners wait, or constantly
+check for an event to fire off, when it does, the listener tiggers and action function in response to the event. JUnits allows us to 
+embed objects and values within parts of the UI that when coupled with an action-listener, will cause the view to change for us.
+***********************************************************************************************************
