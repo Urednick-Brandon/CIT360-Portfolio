@@ -1,12 +1,24 @@
 Portfolio Notes
 
+************Hibernate***************************************************************************************
+I stayed away from this topic because of my weak programming skills and my lack of knowledge on the subject. Once I finally got
+into the subject I realized how important Hibernate is for taking variable data objects and helping them convert in to a SQL table
+that can be used without having to rewrite the SQL code every single time you make a small change to the java classes. My research was
+based on http://www.tutorialspoint.com/hibernate/ where I went through and learned the levels that Hibernate uses to make its magic
+happen. I also watched several series of Youtube videos to help me understand point that I wasn't quite getting such has the
+persistant classes. I even followed the tutorial and was able to make my first hibernate program and was able to follow it
+and understood what it did. I did a presentation on the subject to the group as well.
+Youtube: https://www.youtube.com/watch?v=nPunAaoIqpc
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/hibernate
+************************************************************************************************************
+
 ************ HttpURLConnection*******************************************************************************
 Here I studied various websites on how HTTP connections can be done in java for andriod devices and what you can do with them.
 The main source that I did for this research was http://developer.android.com/reference/java/net/HttpURLConnection.html and
 from there I was able to learn on how to connect with http urls with java in various different ways including secure connections,
 cookies, and authentication sign-ons. I found other tools within the HttpURLConnection to also create a HTTP reader than can pull the
 live current http file of any website. The java file is on this github at:
-https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/src/httpreader
+https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader
 I also did a live demo of it on YouTube at (already cued up at 5m55s):
 https://youtu.be/i7FmQZW6gMo?t=5m50s
 ************************************************************************************************************
@@ -18,7 +30,7 @@ concept, but the tutuorials at W3schools really healped: http://www.w3schools.co
 From there I found a few more tutorials that helped build and demonstrate a live demo of a MVC and how it worked. I attempted to elevate 
 the demo project and tried to make it so you can adjust the pixel size of your 'drawing', however that attempt had to be commented out
 due to some compling issues that I still haven't worked out yet. 
-Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/mvc/src/mvc
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/mvc
 YouTube Demo: https://www.youtube.com/watch?v=4gGolm8Zzfc
 
 The cool thing about this demo tutorial file is that taught me about how JUnits can work and how to program something with action
