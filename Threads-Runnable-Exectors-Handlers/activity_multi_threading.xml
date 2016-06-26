@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/firstlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <TextView android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Button will appear after 10 seconds"/>
+
+        <TextView android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity= "center_horizontal"
+            android:text="12"
+            android:layout_marginTop="80dp"
+            android:textSize="36dp"/>
+
+        <Button
+            android:id="@+id/clickme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Click_me"
+            android:visibility="invisible"
+            android:layout_marginTop="200dp"/></RelativeLayout>
+
+
+</RelativeLayout>
