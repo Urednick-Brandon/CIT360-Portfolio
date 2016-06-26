@@ -22,6 +22,9 @@ evaluate the test case as expected you'll get a failling message.
 
 This is just a basic example of Junit testing, but you can test for a time-out, or execptions, or the new parameterized testing.
 
+Assertions allow you to test for certain results, like in our calculator if it equals something, or if the output is true/false,
+null/notNull, same as an expected output, or not the same, or even an ArraryEquals.
+
 Youtube: 
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JUnits
 ************************************************************************************************************
