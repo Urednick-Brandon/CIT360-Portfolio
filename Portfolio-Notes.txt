@@ -1,5 +1,14 @@
 2nd Submit
 ************Java Collections****************************************
+This took me a while to understand what it is exactly, but I used http://beginnersbook.com/java-collections-tutorials/ and
+http://www.javatpoint.com/collections-in-java to help me understand what Java Collections are
+
+From what I gathered this is basically a data sructure, a single  unit of objects. Think you have all of these fruits and
+you need to manage all of them. Java Collections basically puts all of the fruit in a containter that you can manage and
+play with.
+
+There are different interfaces that you can use in java collections. There's lists, stacks, queues, double-ended queues, sets,
+and maps. 
 
 Youtube: http://youtu.be/gob5Cehrw6I
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
