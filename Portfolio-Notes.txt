@@ -1,4 +1,28 @@
 2nd Submit
+************Sockets****************************************
+Instantly landed here, and was a great resouce to help me understand sockets. 
+https://docs.oracle.com/javase/tutorial/networking/sockets/
+
+A socket is an endpoint of a two-way communication link between two programs. This typically being a client and a server. 
+
+Server-side: This server runs with a specific name and listens on a specific port waiting for a socket request. And from here
+it just waits and waits and waits. Like a dog waiting at the door for someone to knock on it.
+
+Client Side: The application knows what the server name is exactly (or the exact IP address) and which port on what the
+server is listening on. Think like a house, with many doors leading into it. The sever name is like the house address and the
+port number tells the client which door to knock on. When making the request, the client also identifies itself to the sever
+so the sever can bind that connection to a local port number during the session.
+
+When its all done correcty, the server gets a new socket bound to the same local port and also has its remote endpoint set to the address and the port of the client. (Known as a handshake). It moves the connection to a new socket so the sever can keep on listening for additional incomming requests.
+
+See github example, for client socket reading/writing and server reading/writing.
+
+Youtube: 
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/Sockets
+************************************************************************************************************
+
+
+
 ************Threads-Runnable-Exectors-Handlers****************************************
 Researched compiled from several different sources. http://stackoverflow.com/questions/21194762 Helped me understand that
 these four terms all work together and not seperate. https://developer.android.com/reference/java/util/concurrent/Executor.html
