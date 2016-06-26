@@ -8,10 +8,10 @@ you need to manage all of them. Java Collections basically puts all of the fruit
 play with.
 
 There are different interfaces that you can use in java collections. There's lists, stacks, queues, double-ended queues, sets,
-and maps. 
+and maps. See the github for examples
 
 Youtube: http://youtu.be/gob5Cehrw6I
-Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JavaCollections
 ************************************************************************************************************
 
 ************Application Controller Model****************************************
