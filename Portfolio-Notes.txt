@@ -10,7 +10,7 @@ Runnable - Implemented by any class intending to be executed by a thread
 Executor - Executes the runnable task
 Handler - Relays message from the thread queue.
 
-Youtube: https://www.youtube.com/watch?v=nPunAaoIqpc
+Youtube: http://youtu.be/h6Q6fiw4_ns
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/Threads-Runnable-Exectors-Handlers
 ************************************************************************************************************
 
