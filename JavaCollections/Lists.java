@@ -1,3 +1,4 @@
+//From http://beginnersbook.com/2014/08/arraylist-in-java/
 import java.util.*;
 
 public class ArrayListExample {
