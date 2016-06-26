@@ -1,4 +1,16 @@
 2nd Submit
+************Java Collections****************************************
+
+Youtube: http://youtu.be/gob5Cehrw6I
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
+************************************************************************************************************
+
+************Application Controller Model****************************************
+
+Youtube: http://youtu.be/gob5Cehrw6I
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
+************************************************************************************************************
+
 ************JUnit Testing****************************************
 Used http://junit.org/junit4/ and http://www.tutorialspoint.com/junit/junit_overview.htm for my reseach points here.
 
