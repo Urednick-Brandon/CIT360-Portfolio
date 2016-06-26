@@ -1,5 +1,20 @@
-Portfolio Notes
+2nd Submit
+************Threads-Runnable-Exectors-Handlers****************************************
+Researched compiled from several different sources. http://stackoverflow.com/questions/21194762 Helped me understand that
+these four terms all work together and not seperate. https://developer.android.com/reference/java/util/concurrent/Executor.html
+also helped me understand how how it all works and I was able to implement a working example of the whole thing. 
+https://developer.android.com/reference/java/lang/Runnable.html did the same as well.
 
+Threads - A seperate execution stack from the main thread, very consuming on resources
+Runnable - Implemented by any class intending to be executed by a thread
+Executor - Executes the runnable task
+Handler - Relays message from the thread queue.
+
+Youtube: https://www.youtube.com/watch?v=nPunAaoIqpc
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/Threads-Runnable-Exectors-Handlers
+************************************************************************************************************
+
+Portfolio Notes 1st Submit
 ************Hibernate***************************************************************************************
 I stayed away from this topic because of my weak programming skills and my lack of knowledge on the subject. Once I finally got
 into the subject I realized how important Hibernate is for taking variable data objects and helping them convert in to a SQL table
