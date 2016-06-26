@@ -20,7 +20,7 @@ and then translated back into the class it was intended for. Used https://msdn.m
 and http://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonSerializer.htm and http://stackoverflow.com/questions/3316762/what-is-deserialize-serialize-in-json for my reseach as well as using https://en.wikipedia.org/wiki/Serialization to help understand the
 uses of serialization. There's a coded example of JSON Serialization below.
 
-Youtube: http://youtu.be/h6Q6fiw4_ns
+Youtube: http://youtu.be/gob5Cehrw6I
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
 ************************************************************************************************************
 
