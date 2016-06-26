@@ -10,7 +10,7 @@ play with.
 There are different interfaces that you can use in java collections. There's lists, stacks, queues, double-ended queues, sets,
 and maps. See the github for examples
 
-Youtube: http://youtu.be/gob5Cehrw6I
+Youtube: 
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JavaCollections
 ************************************************************************************************************
 
