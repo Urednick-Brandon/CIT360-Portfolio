@@ -15,9 +15,28 @@ Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JavaCol
 ************************************************************************************************************
 
 ************Application Controller Model****************************************
+I was struggling finding online resources for this topic and then Bro. Tuckett posted about it with his document, thank you!
+https://drive.google.com/file/d/0B2YD14aXUloBRVloSnI3bnlWb00/view
 
-Youtube: http://youtu.be/gob5Cehrw6I
-Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
+Now when reading this with other...very small...sources of information about the ACM, I realized that I interact with this
+on a daily basis at work. The ACM allows you to move around and filter out cetrain view clases without having to switch out
+hard code when you need to make changes or adjustments. Every view is a class that can be called on or filtered out based
+on what the application needs rather than a display that can only advance or go back. 
+
+Now we use a J.D. Edwards AS400 interface at my workplace with the IBMi emulator. Now the AS400 has literally 100s and 100s 
+of different displays, all pertaining to something different with the controller. Now say the accounting department now needs
+the customer information to come up before putting the PO number and info. Instead of having to flip around and rework the hard
+code, all I have to do is go into the AS400 view model, and flip display(80) with display(49) and there I go. Save, quit, done.
+
+Also views can be filtered out by department and needs. The shipping people don't need to be able to see the accounting details,
+or the paychecks. Or the production people only need to see the PO info. I can filter out what views are avaliable to them, shrinking
+down the views from 100s to just 3-5, maybe 20 at most. Being able to just filter out views helps reduce time when creating a new
+profie or when someone transfers departments.
+
+This youtube video below realy helps explaining the process as well.
+Youtube: https://www.youtube.com/watch?v=dB6DL2R86nw
+
+Github: 
 ************************************************************************************************************
 
 ************JUnit Testing****************************************
