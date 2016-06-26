@@ -14,6 +14,16 @@ Youtube: http://youtu.be/h6Q6fiw4_ns
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/Threads-Runnable-Exectors-Handlers
 ************************************************************************************************************
 
+************JSON Serialization****************************************
+This is basically taking data from an object and then putting it into a standard form so that it can be transmitted
+and then translated back into the class it was intended for. Used https://msdn.microsoft.com/en-us/library/bb410770(v=vs.110).aspx
+and http://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonSerializer.htm and http://stackoverflow.com/questions/3316762/what-is-deserialize-serialize-in-json for my reseach as well as using https://en.wikipedia.org/wiki/Serialization to help understand the
+uses of serialization. There's a coded example of JSON Serialization below.
+
+Youtube: http://youtu.be/h6Q6fiw4_ns
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JSON-Serialization
+************************************************************************************************************
+
 Portfolio Notes 1st Submit
 ************Hibernate***************************************************************************************
 I stayed away from this topic because of my weak programming skills and my lack of knowledge on the subject. Once I finally got
