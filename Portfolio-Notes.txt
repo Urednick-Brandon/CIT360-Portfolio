@@ -1,4 +1,31 @@
 2nd Submit
+************JUnit Testing****************************************
+Used http://junit.org/junit4/ and http://www.tutorialspoint.com/junit/junit_overview.htm for my reseach points here.
+
+JUnit testing is a framework used by devleopers to improve their quality of programing by learning which parts of the
+application can be changed to increase speed and decrease resource needs to make the application as useful as possible.
+
+I think of this as a benchmark tool. You write your code, just the JUnit testing framework to see how your program executes,
+make changes that you think will improve your program (i.e. different methods using less cycles) and then run the testing
+again and see if there's a difference. However manual testing take a lot of human resource and investment to try to 
+continuously run and improve the code. Using the automated tool support, this making the testing run more accurately with
+less time, and can become very sophisticated to bring out hidden information.
+
+The testing environment thinks..."first testing, then coding" which makes a lot of since in my point of view. First, to make a test, you have to think of a test case...like a calulator adding up 6+1+3, which should equal ten.
+
+So first you create the test..see: https://github.com/Urednick-Brandon/CIT360-Portfolio/JUnits/CalculatorTest.java
+Then create the calculator: https://github.com/Urednick-Brandon/CIT360-Portfolio/JUnits/Calculator.java
+
+Now when you compile the cacluator and the test, then run the test. you should get a time and if it passes your evlaulation.
+You can always experiement to see if you get a faster time, and if it still evaluates your test case properly, if it doesn't
+evaluate the test case as expected you'll get a failling message.
+
+This is just a basic example of Junit testing, but you can test for a time-out, or execptions, or the new parameterized testing.
+
+Youtube: 
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/JUnits
+************************************************************************************************************
+
 ************Sockets****************************************
 Instantly landed here, and was a great resouce to help me understand sockets. 
 https://docs.oracle.com/javase/tutorial/networking/sockets/
