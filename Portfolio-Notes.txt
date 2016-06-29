@@ -1,3 +1,21 @@
+3rd Submit
+************HTTPConnection Inergrated********************************
+I expanded this topic by using the HTTPConnection and turned it into a downloader. The buffer takes the inputed url file name and
+then creates a file in an appointed directory, the buffer then feeds the content into the file, then closes it.
+
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/HttpDownloader
+*******************************************************************
+
+************HTTPConnection Extended********************************
+I expanded this topic by using the HTTPConnection and turned it into a downloader. The buffer takes the inputed url file name and
+then creates a file in an appointed directory, the buffer then feeds the content into the file, then closes it.
+
+See the video for the demo...
+
+Youtube: http://youtu.be/sY92_KcjhVI
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/HttpDownloader
+*******************************************************************
+
 2nd Submit
 ************Java Collections****************************************
 This took me a while to understand what it is exactly, but I used http://beginnersbook.com/java-collections-tutorials/ and
