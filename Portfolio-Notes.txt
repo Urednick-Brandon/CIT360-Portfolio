@@ -1,9 +1,16 @@
 3rd Submit
-************HTTPConnection Inergrated********************************
-I expanded this topic by using the HTTPConnection and turned it into a downloader. The buffer takes the inputed url file name and
-then creates a file in an appointed directory, the buffer then feeds the content into the file, then closes it.
+************UML Documents ************************************************************************************************************
+Please see my sharing video and my shared google docs drives for the 6 required UML Documents
+Google Docs: https://drive.google.com/open?id=0Bw-LDJJtGD_iUElaZVJINGtDSjA
+YouTube: http://youtu.be/uAYf0ja-eH0
+*********************************************************************************************************************************
 
-Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/HttpDownloader
+************HTTPConnection Intergrated with Threads-Runnable-Exectors-Handlers Intergration********************************
+Here you'll see the full implementation of the HTTPConnection intergrated with the application as well as the 
+full intergration and implementation of the threads, runnable, executors, handlers.
+
+YouTube: http://youtu.be/5l5cdilggIM
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/HttpDownloader/Implementation
 *******************************************************************
 
 ************HTTPConnection Extended********************************
