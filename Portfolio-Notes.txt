@@ -9,6 +9,8 @@ YouTube: http://youtu.be/uAYf0ja-eH0
 Here you'll see the full implementation of the HTTPConnection intergrated with the application as well as the 
 full intergration and implementation of the threads, runnable, executors, handlers.
 
+APK Download: https://drive.google.com/open?id=0Bw-LDJJtGD_iU3dMcC1PX2VTcGM
+
 YouTube: http://youtu.be/5l5cdilggIM
 Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/HTTPreader/HttpDownloader/Implementation
 *******************************************************************
