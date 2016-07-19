@@ -1,3 +1,14 @@
+Final Submit
+************Application Controller Model******************************************************************************************
+This took me a while to find some kind of tutorial for me to follow to understand this model and finally I came across a site
+that teaches how to decouple workflow and forms with an Application Controller. I followed the tutorial and was able
+to use the sandbox code in it to better my understanding of the coding application and how to use it.
+
+Source: https://lostechies.com/derickbailey/2009/04/18/decoupling-workflow-and-forms-with-an-application-controller/
+Github: https://github.com/Urednick-Brandon/CIT360-Portfolio/tree/master/Application-Controller
+*********************************************************************************************************************************
+
+
 3rd Submit
 ************UML Documents ************************************************************************************************************
 Please see my sharing video and my shared google docs drives for the 6 required UML Documents
